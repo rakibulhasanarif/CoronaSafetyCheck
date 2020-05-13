@@ -1,0 +1,1 @@
+https://6n1hhulmv1.execute-api.us-east-1.amazonaws.com/dev/standarddata
