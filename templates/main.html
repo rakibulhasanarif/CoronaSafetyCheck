@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    
+    <div class="jumbotron text-center  vertical-center">
+        <h1>Welcome to CoronaSafety Check Page </h1>
+        <h1> Please Fill Up All The Fields To Get Your Result</h1>
+        <br/>
+        <form action="/new" method="POST" >
+            <div>
+                <label>Please Enter Your Name</label>
+                <input type="text" name="list8"/>
+            </div>
+            <br/>
+            <div>
+                <label> What is your age group</label>
+                <select id = "myList1" name = "list1">
+                    <option value = "0">Select your Age</option>
+                    <option value = "5">0-17</option>
+                    <option value = "10">18-44</option>
+                    <option value = "15">45-64</option>
+                    <option value = "20">65+</option>
+                    
+                  </select>
+            </div>
+          
+            <br/>
+            <div>
+                <label> How Frequently you traveled overseas in last 6 months </label>
+                <select id = "myList2" name='list2'>
+                    <option value = "0">Select your Choice </option>
+                    <option value = "20">Very Often</option>
+                    <option value = "15">Often</option>
+                    <option value = "5">Did not Travel</option>
+                    <option value = "5">Never Travelld</option>
+                   
+                  </select>
+            </div>
+            <br/>
+            <div>
+                <label> Are you a Smoker ? </label>
+                <select id = "myList3" name='list3'>
+                    <option value = "0">Select your Choice </option>
+                    <option value = "15">Yes</option>
+                    <option value = "5">No</option>
+                    
+                   
+                  </select>
+            </div>
+            <br/>
+            <div>
+                <label> Are you addicted to alchohol or any type of Drugs ? </label>
+                <select id = "myList4" name='list4'>
+                    <option value = "0">Select your Choice </option>
+                    <option value = "20">Yes</option>
+                    <option value = "5">No</option>
+                    
+                   
+                  </select>
+            </div>
+            <br/>
+            <div>
+                <label> Are you involved in Health Service or Social Service ? </label>
+                <select id = "myList5" name='list5'>
+                    <option value = "0">Select your Choice </option>
+                    <option value = "20">Yes</option>
+                    <option value = "5">No</option>
+                    
+                   
+                  </select>
+            </div>
+            <br/>
+            <div>
+                <label> Do you love to mantain social distance  ? </label>
+                <select id = "myList6" name='list6'>
+                    <option value = "0">Select your Choice </option>
+                    <option value = "5">Yes</option>
+                    <option value = "20">No</option>
+                    
+                   
+                  </select>
+            </div>
+            <input type="submit" value="Submit"/> 
+    
+        </form>
+        <br/>
+        
+
+    </div>
+   
+</body>
+</html>
